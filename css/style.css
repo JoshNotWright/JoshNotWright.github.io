@@ -111,13 +111,13 @@ p.category-description {
 }
 
 .project1 {
-    background-image: url("https://i.ibb.co/Y8vbm8k/virtualpet.png");
+    background-image: url("");
     background-size: cover;
 
 }
 
 .project2 {
-    background-image: url("https://i.ibb.co/VMh6LL5/nhl.png");
+    background-image: url("");
     background-size: contain;
     background-position: center, center;
     background-repeat: no-repeat;
