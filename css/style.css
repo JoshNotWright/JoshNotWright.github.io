@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #525e65;
+}
+
+.nav-bar {
+    display: flex;
+    margin-bottom: 7px;
+    width: 325px;
+    justify-content: space-between;
+}
+
+.nav-bar-box {
+    display: flex;
+}
+
+a.nav-link {
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    color: lightblue;
+}
+
+.main-content {
+    background-image: url("https://i.ibb.co/nsp8TKd/pexels-veeterzy-303383-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    min-height: 1500px;
+    padding-top: 6%;
+    text-align: center;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace
+}
+
+.category-header {
+    margin-bottom: 9rem;
+    text-align: center;
+}
+
+.category-title::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    padding-top: 20px;
+    border-bottom: 5px solid black;
+    padding-bottom: 5px;
+    transition: .5s;
+}
+
+.category-title:hover::after {
+    width: 25%;
+}
+
+p.intro {
+    padding-top: 1%;
+}
+
+p.category-description {
+    padding-top: 1%;
+}
+
+/* header shadow */
+.header {
+    box-shadow: 3px 4px 5px rgb(0 0 0 / 50%);
+}
+
+.footer {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #525e65;
+    text-align: center;
+    color: white;
+    font-family:'Courier New', Courier, monospace
+}
+
+.category-body {
+    display: flex;
+
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    max-width: 1600px;
+}
+.project1, .project2, .project3{
+    display: flex;
+    justify-content: center;
+    border: 2px;
+    border-style: solid;
+    border-color: #525e65;
+    width: 400px;
+    height: 250px;
+}
+
+.project1 {
+    background-image: url("https://i.ibb.co/Y8vbm8k/virtualpet.png");
+    background-size: cover;
+
+}
+
+.project2 {
+    background-image: url("https://i.ibb.co/VMh6LL5/nhl.png");
+    background-size: contain;
+    background-position: center, center;
+    background-repeat: no-repeat;
+}
+
+
+a.project-link {
+    text-decoration: none;
+    color: white;
+}

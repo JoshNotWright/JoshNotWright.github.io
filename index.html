@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Josh's Portfolio</title>
 </head>
 <body>
-    <h1>This website is under construction. Please be patient while I figure out how to make a website.</h1>
+<div class="header">
+    <div class="nav-bar">
+        <div class="nav-bar-box">
+            <a class="nav-link" href="/#home">About Me</a>
+        </div>
+        <div class="nav-bar-box">
+            <a class="nav-link" href="/#projects">Projects</a>
+        </div>
+        <div class="nav-bar-box">
+            <a class="nav-link" href="/#contactme">Contact Me</a>
+        </div>
+    </div>
+</div>
+<div class="main-content">
+    <section class="category-section" id="home" data-nav="home">
+        <header class="category-header">
+            <img class="selfie" src="https://i.ibb.co/55x4Ssp/IMG-2291-40-modified.png" alt="Photo of me and my friend Carson">
+            <h1 class="category-title">About Me</h1>
+            <p class="intro">Hi! My name is Josh Wright, and I'm a Columbus based software engineer.</p>
+            <br>
+            <p class="intro">I have a unique set of skills, from HTML + CSS + Js, Java, Python, and even Linux server management + bash.</p>
+        </header>
+    </section>
+
+    <section class="category-section" id="projects" data-nav="projects">
+        <header class="category-header">
+            <h1 class="category-title">Projects</h1>
+            <p class="category-description">Work I've done recently</p>
+            <div class="project-container">
+                <div class="project1">
+                    <a class="project-link" href="https://github.com/2021-Fall-Cohort/virtual-pet-team-4">Virtual Pet</a>
+                </div>
+                <div class="project2">
+                    <a class="project-link" href="https://github.com/2021-Fall-Cohort/review-site-groups-pro-stars">NHL Review Website</a>
+                </div>
+                <div class="project3">
+                    <a class="project-link" href="https://github.com/JoshNotWright/TWSPManage">TWSP Manage</a>
+                </div>
+            </div>
+            
+        </header>
+    </section>
+
+    <section class="category-section" id="contactme" datanav="contactme">
+        <header class="category-header">
+            <h1 class="category-title">Contact Me</h1>
+        </header>
+    </section>
+</div>
+<div class="footer">
+    <div class="info">
+        <p>&copy; 2021 Josh Wright</p>
+    </div>
+</div>
 </body>
 </html>
