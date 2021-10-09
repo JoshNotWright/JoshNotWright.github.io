@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    color: white;
 }
 
 .header {
@@ -51,7 +52,7 @@ a.nav-link:hover {
     text-align: center;
 }
 
-.category-title::after {
+.category-subtitle::after, .category-title::after {
     content: "";
     display: block;
     margin: 0 auto;
@@ -62,7 +63,7 @@ a.nav-link:hover {
     transition: .5s;
 }
 
-.category-title:hover::after {
+.category-subtitle:hover::after, .category-title:hover::after {
     width: 25%;
 }
 
@@ -136,7 +137,7 @@ a.project-link {
     background-size: cover;
     background-position: center center;
     color: white;
-    min-height: 1000px;
+    min-height: 1200px;
     padding-top: 6%;
     text-align: center;
     font-size: larger;
@@ -151,4 +152,10 @@ a.project-link {
 .category-list {
     color: white;
     padding-top: 1%;
+}
+
+.category-img {
+    padding-top: 1%;
+    max-height: 750px;
+    max-width: 1400px;
 }
