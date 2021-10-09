@@ -97,14 +97,16 @@ p.category-description {
     padding-top: 1%;
     max-width: 1600px;
 }
+
 .project1, .project2, .project3{
     display: flex;
     justify-content: center;
-    border: 4px;
+    border: 3px;
     border-style: solid;
     border-color: #525e65;
     width: 400px;
     height: 250px;
+    border-radius: 32px;
 }
 
 .project-link {
