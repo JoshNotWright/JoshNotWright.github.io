@@ -100,7 +100,7 @@ p.category-description {
 .project1, .project2, .project3{
     display: flex;
     justify-content: center;
-    border: 3px;
+    border: 4px;
     border-style: solid;
     border-color: #525e65;
     width: 400px;
