@@ -75,11 +75,6 @@ p.category-description {
     padding-top: 1%;
 }
 
-/* header shadow */
-.header {
-    box-shadow: 3px 4px 5px rgb(0 0 0 / 50%);
-}
-
 .footer {
     margin-top: 0;
     padding-top: 0;
@@ -105,28 +100,14 @@ p.category-description {
 .project1, .project2, .project3{
     display: flex;
     justify-content: center;
-    border: 2px;
+    border: 3px;
     border-style: solid;
     border-color: #525e65;
     width: 400px;
     height: 250px;
 }
 
-.project1 {
-    background-image: url("");
-    background-size: cover;
-
-}
-
-.project2 {
-    background-image: url("");
-    background-size: contain;
-    background-position: center, center;
-    background-repeat: no-repeat;
-}
-
-
-a.project-link {
+.project-link {
     text-decoration: none;
     color: white;
 }
@@ -158,4 +139,8 @@ a.project-link {
     padding-top: 1%;
     max-height: 750px;
     max-width: 1400px;
+}
+
+.project-description {
+    line-height: 150%;
 }
