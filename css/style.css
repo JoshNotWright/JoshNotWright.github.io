@@ -41,6 +41,7 @@ a.nav-link:hover {
     background-position: center center;
     color: white;
     min-height: 1325px;
+    overflow: hidden;
     padding-top: 6%;
     text-align: center;
     font-size: larger;
