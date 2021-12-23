@@ -151,3 +151,8 @@ p.category-description {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.headshot {
+    width: 275px;
+    height: auto;
+}
